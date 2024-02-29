@@ -1,0 +1,38 @@
+.container{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+h3{
+  font-size: 30px;
+}
+.output{
+  width: 250px;
+  height: 30px;
+  padding: 5px 10px;
+  text-align: right;
+  background-color: black;
+  color: white;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+button{
+  border: none;
+  width: 69px;
+  padding: 10px 3px;
+  
+}
+
+.digit{
+  font-size: medium;
+}
+.fun-key ,.digit{
+  border-right: 1px solid black;
+}
+.fun-key, .operator{
+  color:green;
+  font-size: medium;
+}

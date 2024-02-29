@@ -1,0 +1,30 @@
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 45px;
+  font-weight: 100;
+  
+}
+
+.btns{
+  display: flex;
+  gap: 20px;
+}
+
+button{
+  border: none;
+  padding: 0 15px;
+}
+#inc{
+  background-color: blue;
+}
+
+#dec{
+  background-color: red;
+}
+

@@ -1,0 +1,44 @@
+.head{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 40px;
+}
+
+hr{
+  width: 70px;
+  height: 3px;
+  background-color:rgb(167, 133, 47);
+}
+
+ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  gap: 1rem;
+}
+
+ul li{
+  padding: 2px 5px;
+  background-color:transparent;
+  color: rgb(167, 133, 47);
+  border-radius: 3px;
+  border: solid rgb(167, 133, 47);
+  
+}
+.menu-items{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+

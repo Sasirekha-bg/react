@@ -1,0 +1,42 @@
+
+.card{
+    display: flex;
+    flex-direction: row;
+    
+    width: 500px; 
+    gap: 30px;
+    height: 170px;  
+}
+
+/* .menu-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  } */
+img{
+    width: 300px;
+    height: auto;
+    border: 4px solid goldenrod;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.6rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px dotted black;
+}
+.title h2{
+    color: black;
+}
+.title p{
+    color: goldenrod;
+}
+
+.desc{
+    color: lightsteelblue;
+}

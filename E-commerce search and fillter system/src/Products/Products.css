@@ -1,0 +1,22 @@
+.card-container{
+   margin-left: 30vw;
+}
+
+.card{
+    width: 300px;
+    padding: 20px;
+    box-shadow: 5px 10px 5px grey;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+.total-reviews{
+    margin-left: 5px;
+}
+.card-details, .card-price{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,55 @@
+.app{
+    border: 5px solid black;
+}
+
+.headerSection{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 15px;
+    background-color: rgb(39, 39, 173);
+}
+.left{
+    flex: 2;
+    
+}
+.center{
+    flex: 4;
+}
+.search{
+    flex:2;
+    
+}
+.search input{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.right{
+    flex: 4;
+    display: flex;
+    justify-content: space-between;
+}
+.center ul{
+    display: flex;
+    gap: 15px;
+}
+
+.headerSection .center ul li{
+    list-style: none;
+    
+}
+.sign{
+    display: flex;
+    gap: 5px;
+    margin-left: 20px;
+}
+
+.bannerBox img{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.MenSection img{
+    width: 180px;
+    margin-right: 5px;
+}
