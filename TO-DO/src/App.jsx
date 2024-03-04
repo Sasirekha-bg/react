@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import './App.css'
 
 export default function App(){
+
     let [todoInput,updateInput] = useState('')
     let [todolist,updateTodos] = useState(
         [
@@ -13,9 +14,11 @@ export default function App(){
             {
                 id:2,
                 task:'Responsive'
+
             }
         ]
-    )
+        )
+        // console.log("todolist",todolist)
     let nextId =3;
 
     function addNewTodo() {
@@ -35,10 +38,10 @@ export default function App(){
         }
     }
 
-    function deleteTodo(id){
+    function deleteTodo(index){
        let updatedTodos = todolist.filter(
-            (todo)=>{
-               return todo.id != id;
+            (todo,i)=>{
+               return i != index;
 
             }
         )
@@ -67,7 +70,7 @@ export default function App(){
             <ul className="list-group mt-4">
                 {
                     todolist.map(
-                        (todo)=>{
+                        (todo,index)=>{
                             return(
                                 <li className="list-group-item"><p>{todo.task}</p>
                                 <div>
@@ -75,7 +78,7 @@ export default function App(){
                                     editTask(todo)
                                 }}>☐</button>
                 <button className='btn' onClick={()=>{
-                    deleteTodo(todo.id)
+                    deleteTodo(index)
                 }}>❌</button>
                                 </div>
                 </li>
